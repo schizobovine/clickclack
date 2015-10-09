@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -187,6 +187,19 @@
 <text x="33.02" y="1.905" size="1.27" layer="1" font="vector" ratio="12" align="center">Cherry Switch Teensy Breakout</text>
 <text x="11.43" y="1.905" size="1.016" layer="16" font="vector" ratio="16" rot="MR0" align="center">&gt;VERSION</text>
 <text x="11.43" y="1.905" size="1.016" layer="22" font="vector" ratio="16" rot="MR0" align="center">&gt;VERSION</text>
+<dimension x1="0" y1="25.4" x2="101.6" y2="20.32" x3="50.8" y3="30.48" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="0" y1="0" x2="3.4925" y2="25.4" x3="-2.54" y3="12.7" textsize="1.27" textratio="12" layer="47" dtype="vertical" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="6.35" y1="12.7" x2="24.13" y2="12.7" x3="15.24" y3="27.94" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="15.24" y1="1.905" x2="0" y2="3.81" x3="7.62" y3="-6.35" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="15.24" y1="1.905" x2="50.8" y2="1.905" x3="33.02" y3="-1.905" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="50.8" y1="1.905" x2="86.36" y2="1.905" x3="68.58" y3="-1.905" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="86.36" y1="1.905" x2="101.6" y2="3.81" x3="93.98" y3="-6.985" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="86.36" y1="1.905" x2="86.36" y2="23.495" x3="109.22" y3="12.7" textsize="1.27" textratio="12" layer="47" dtype="vertical" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="97.79" y1="9.525" x2="97.79" y2="6.985" x3="105.41" y3="8.255" textsize="1.27" textratio="12" layer="47" dtype="vertical" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="93.345" y1="1.905" x2="90.805" y2="1.905" x3="92.075" y3="-3.81" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="7.62" y1="1.905" x2="5.08" y2="1.905" x3="6.35" y3="-1.905" textsize="1.27" textratio="12" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="49.7" y1="23.495" x2="51.9" y2="23.495" x3="50.8" y3="26.67" textsize="1.27" textratio="12" layer="47" dtype="diameter" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="99.06" y1="22.86" x2="101.092" y2="24.384" x3="107.188" y3="28.956" textsize="1.27" textratio="12" layer="47" dtype="radius" width="0.127" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="A_butts">
